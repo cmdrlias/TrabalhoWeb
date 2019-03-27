@@ -53,8 +53,8 @@ var canvas3 = document.getElementById("myCanvas3");
 ctx = canvas3.getContext("2d");
 
 var grd = ctx.createRadialGradient(60,100,5,80,100,100);
-grd.addColorStop(0,"white");
-grd.addColorStop(1,"red");
+grd.addColorStop(0,"#de003d");
+grd.addColorStop(1,"#0d0a29");
 
 ctx.beginPath();
 ctx.fillStyle = grd;
